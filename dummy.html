@@ -1,20 +1,40 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-  <title>TEST</title>
- 
-  <link href="dummycss.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  <link rel="stylesheet" href="dummycss.css">
 
-  <style>
-  </style>
 </head>
 
 <body>
-  <h1>I am h1</h1>
-  <section>
-    <div>
+  <table>
+    <tr>
+      <td class="cell" id="0">1</td>
+      <td class="cell" id="1">2</td>
+      <td class="cell" id="2">3</td>
+    <tr>
+      <td class="cell" id="3">1</td>
+      <td class="cell" id="4">1</td>
+      <td class="cell" id="5">1</td>
+    </tr>
+    <tr>
+      <td class="cell" id="6">4</td>
+      <td class="cell" id="7">2</td>
+      <td class="cell" id="8">1</td>
+    </tr>
+  </table>
+  <div class="endgame">
+    <div class="Reset">
 
     </div>
-  </section>
+    
+
+  </div>
+  <button onClick="startGame()">Replay</button>
+
+  <script src="dummyjs.js"></script>
 </body>
 </html>
