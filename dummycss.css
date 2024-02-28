@@ -43,3 +43,20 @@ body {
 
 
 }
+
+.selector input{
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.selector label {
+  font-size: 1,5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+
+}
+
+.selector input:checked {
+  color: dodgerblue;
+
+}
