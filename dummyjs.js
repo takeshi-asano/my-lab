@@ -27,4 +27,4 @@ function startGame() {
   console.log(origBoard)
 }
 
-alert('hello')
+alert('hellomac')
