@@ -26,3 +26,5 @@ function startGame() {
   origBoard = Array.from(Array(9).keys())
   console.log(origBoard)
 }
+
+alert('hello')
